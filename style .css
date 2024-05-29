@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    background-color:#FFDAC1 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    margin: 25%;
+}
+.container_principal{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    border-radius: 20px ;
+    border: 2px solid black;
+}
+.carte_de_rank{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.information_joueur{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    height: 50px;
+}
+.platforme_logo img{
+    height:35px; 
+}
+.liste_rank span img{
+    height: 50px;
+}
+.liste_rank{
+    display: flex;
+    flex-direction:row;
+    background-color: green;
+
+}
+.liste_rank li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    height: 150px;
+    width: 100%;
+}
+
